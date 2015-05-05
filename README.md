@@ -2,7 +2,7 @@
 
 Steps to reproduce:
 
-1. `clone repo`
+1. `clone https://github.com/mikowals/nullPublishTwice.git`
 2. `cd nullPublishTwice`
 3. `meteor`
 4. In a browser navigate to `127.0.0.1:3000` which connects to the app triggering fast-render
