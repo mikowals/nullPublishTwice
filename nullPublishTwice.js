@@ -14,7 +14,7 @@ if (Meteor.isServer) {
   });
 
   FastRender.onAllRoutes(function(path) {
-    console.log(path);
+    console.log('fast-render path: ',path);
     this.subscribe('named');
   });
 }

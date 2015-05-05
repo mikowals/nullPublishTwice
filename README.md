@@ -9,6 +9,7 @@ Steps to reproduce:
 
 # Expected output is:
 
+> fast-render path: /  
 > named publish called  
 > null publish called
 
@@ -16,4 +17,4 @@ Printed once.
 
 # Actual output
 
-Expected output printed dozens of times.  Once for each path requested when loading a meteor page.
+Expected output printed dozens of times.  Once for each path not in the browser cache when loading a meteor page.
