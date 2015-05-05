@@ -10,6 +10,7 @@ Steps to reproduce:
 # Expected output is:
 
 > named publish called
+
 > null publish called
 
 Printed once.
